@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="234654968ab6480dbad70250efce7886" Name="Diagram1">
+        <EntityTypeShape EntityType="BookCityDatabaseModel.Book" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.Category" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.Employee" Width="1.5" PointX="5.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.EmployeeType" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.Language" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.Library" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.Publisher" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.Translator" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.User" Width="1.5" PointX="5.25" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.UserType" Width="1.5" PointX="3" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.Writter" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookCityDatabaseModel.BorrowBook" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="BookCityDatabaseModel.FK_Book_Language" ManuallyRouted="false" />
+        <AssociationConnector Association="BookCityDatabaseModel.FK_Book_Publisher" ManuallyRouted="false" />
+        <AssociationConnector Association="BookCityDatabaseModel.FK_Library_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="BookCityDatabaseModel.FK_Admin_AdminType" ManuallyRouted="false" />
+        <AssociationConnector Association="BookCityDatabaseModel.FK_BorrowBook_Admin" ManuallyRouted="false" />
+        <AssociationConnector Association="BookCityDatabaseModel.FK_BorrowBook_Library" ManuallyRouted="false" />
+        <AssociationConnector Association="BookCityDatabaseModel.FK_BorrowBook_User" ManuallyRouted="false" />
+        <AssociationConnector Association="BookCityDatabaseModel.FK_User_UserType" ManuallyRouted="false" />
+        <AssociationConnector Association="BookCityDatabaseModel.Book_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="BookCityDatabaseModel.Book_Translator" ManuallyRouted="false" />
+        <AssociationConnector Association="BookCityDatabaseModel.Book_Writter" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
